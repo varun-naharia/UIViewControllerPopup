@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  PopupDemo
 //
 //  Created by Varun Naharia on 07/07/15.
 //  Copyright (c) 2015 TechWizard. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@interface ViewController : UIViewController
-
-@property(nonatomic)BOOL isOpen;
+@interface SecondViewController : ViewController
 
 @end
-

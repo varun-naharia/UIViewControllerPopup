@@ -14,6 +14,7 @@
 		5E7B7B8B1B4B69880070E93F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7B7B8A1B4B69880070E93F /* Images.xcassets */; };
 		5E7B7B8E1B4B69880070E93F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E7B7B8C1B4B69880070E93F /* LaunchScreen.xib */; };
 		5E7B7B9A1B4B69880070E93F /* PopupDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B7B991B4B69880070E93F /* PopupDemoTests.m */; };
+		5E7B7BA71B4B6C400070E93F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B7BA61B4B6C400070E93F /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5E7B7B931B4B69880070E93F /* PopupDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E7B7B981B4B69880070E93F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E7B7B991B4B69880070E93F /* PopupDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupDemoTests.m; sourceTree = "<group>"; };
+		5E7B7BA51B4B6C400070E93F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		5E7B7BA61B4B6C400070E93F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				5E7B7B821B4B69880070E93F /* AppDelegate.m */,
 				5E7B7B841B4B69880070E93F /* ViewController.h */,
 				5E7B7B851B4B69880070E93F /* ViewController.m */,
+				5E7B7BA51B4B6C400070E93F /* SecondViewController.h */,
+				5E7B7BA61B4B6C400070E93F /* SecondViewController.m */,
 				5E7B7B871B4B69880070E93F /* Main.storyboard */,
 				5E7B7B8A1B4B69880070E93F /* Images.xcassets */,
 				5E7B7B8C1B4B69880070E93F /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E7B7BA71B4B6C400070E93F /* SecondViewController.m in Sources */,
 				5E7B7B861B4B69880070E93F /* ViewController.m in Sources */,
 				5E7B7B831B4B69880070E93F /* AppDelegate.m in Sources */,
 				5E7B7B801B4B69880070E93F /* main.m in Sources */,
