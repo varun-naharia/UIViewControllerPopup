@@ -26,6 +26,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)open:(id)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *newVC = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"Second"];
+    [ViewController setPresentationStyleForSelfController:self presentingController:newVC];
+    [self.navigationController presentViewController:newVC animated:YES completion:nil];
+    
+}
+
 + (void)setPresentationStyleForSelfController:(UIViewController *)selfController presentingController:(UIViewController *)presentingController
 {
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
@@ -42,11 +50,5 @@
     }
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    UIViewController *newVC = segue.destinationViewController;
-    
-    [ViewController setPresentationStyleForSelfController:self presentingController:newVC];
-}
 
 @end
